@@ -11,40 +11,26 @@ html {
     font-size: 1.25rem;
 }
 
-/* .gradient-border {
-    border-style: solid;
-    border-width: 3px;
-    border-image: 
-        linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet) 1;
-} */
-
-.container {
-    border: 1px solid;
+.cont {
     width: 95%; 
-    font-size: 0.75em;
-margin: 1rem auto;
-padding: 0.25rem;}
+    margin: 0.5rem auto;
+    padding: 0.5rem 0.55rem;
+}
+
 .flash-card {
+    box-shadow: 1px 4px 8px rgba(66, 65, 65, 0.3);
+    border-radius: 8px;
+    padding: 0.79rem;
+    min-width: 100%;
+}
+
+
+/* .white-card {
     box-shadow: 1px 4px 8px rgba(0, 0, 0, 0.3);
     border-radius: 8px;
     padding: 2rem;
     min-width: 100%;
-    font-weight: bold;
-    min-width: 100%;
-    font-weight: bold;
-    margin: 2rem auto; 
-}
-
-
-
-
-.white-card {
-    box-shadow: 1px 4px 8px rgba(0, 0, 0, 0.3);
-    border-radius: 8px;
-    padding: 2rem;
-    min-width: 100%;
-    font-weight: bold; 
-}
+} */
 .white-card p, .flash-card p{
     color: rgb(98, 98, 98);
 }
@@ -98,7 +84,6 @@ h1 {
 }
 
 nav{
-    position: sticky;
     display: flex;
     justify-content: center;
     background: #fff;
@@ -252,23 +237,38 @@ a { text-decoration: none;}
     color: #605e5e;
     padding-bottom: 1rem;
 }
+.mt-5 {
+    margin-top: 1.25rem;
 
+}
 
-@media  screen  and (min-width: 750px){
-    .container {
-        width: 85%;
-        padding: 2rem;
-        margin: 0.5rem auto;
+@media  screen  and (min-width: 950px){
+    /* ====== Utilities css====== */
+    .mt-5 {
+        margin-top: 2rem;
+
     }
 
+    .flex-1 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .cont {
+        width: 75%; 
+        margin: 0.5rem auto;
+        padding: 0.35rem;
+    }
+    
+
     .flash-card {
-        margin: 2rem;
-        background-image: linear-gradient(to right, #720d0d, #300b0b, #3b07f7);
-        color: #fff;
+        max-width: 75%;
         border-radius: 10px;
         border: 1px solid;
         padding: 1rem;
-        box-shadow: 1px 1px 20px #fa0303;
+        box-shadow: 1px 1px 20px #9b0000;
+        margin-top: 2em;
     }
 
     nav{
