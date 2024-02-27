@@ -11,6 +11,14 @@ html {
     font-size: 1.25rem;
 }
 
+/* .gradient-border {
+    border-style: solid;
+    border-width: 3px;
+    border-image: 
+        linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet) 1;
+} */
+
+
 .flash-card {
     box-shadow: 1px 4px 8px rgba(0, 0, 0, 0.3);
     border-radius: 8px;
@@ -198,8 +206,8 @@ a { text-decoration: none;}
     border: 1px solid;
     width: 95%; 
     font-size: 0.75em;
-    margin: 0.1rem auto;
-    /* padding: 0.25rem; */
+    margin: 1rem auto;
+    padding: 0.25rem;
 }
 
 .fund-table th{
