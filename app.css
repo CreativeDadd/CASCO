@@ -198,8 +198,8 @@ a { text-decoration: none;}
     border: 1px solid;
     width: 95%; 
     font-size: 0.75em;
-    margin: 1rem auto;
-    padding: 0.25rem;
+    margin: 0.1rem auto;
+    /* padding: 0.25rem; */
 }
 
 .fund-table th{
