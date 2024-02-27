@@ -18,7 +18,12 @@ html {
         linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet) 1;
 } */
 
-
+.container {
+    border: 1px solid;
+    width: 95%; 
+    font-size: 0.75em;
+margin: 1rem auto;
+padding: 0.25rem;}
 .flash-card {
     box-shadow: 1px 4px 8px rgba(0, 0, 0, 0.3);
     border-radius: 8px;
@@ -236,20 +241,17 @@ a { text-decoration: none;}
 .cash-flow-calc {
     border: 1px solid #4a1919;
     text-align: center;
-    width: 100%;
-    margin: 0.5rem auto;
-    font-weight: 400;
     font-size: 1.5rem;
     padding: 0.41rem;
     border-radius: 12px;
     box-shadow: 1px 4px 15px #4a1919;
-}
+} 
 
-/* .cash-flow-calc p {
+.cash-flow-calc p {
     font-size: 1rem;
     color: #605e5e;
     padding-bottom: 1rem;
-} */
+}
 
 
 @media  screen  and (min-width: 750px){
